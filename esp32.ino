@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include "FirebaseESP32.h"
 
-#define WIFI_SSID "Yasmin"
-#define WIFI_PASSWORD "Bandeira001"
-#define FIREBASE_HOST "https://lampada-f83c6-default-rtdb.firebaseio.com/"
-#define FIREBASE_AUTH "syegr4w2LKqRVWOmIi8V1m6XFyNIgJYxSHL85DpX"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 
 FirebaseData firebaseData;
 String lampada = "/lampada";
